@@ -27,6 +27,8 @@ const Input = ({ placeholder, value, onChange }: InputProps) => {
         console.log("Profiler: commitTime", commitTime);
         console.log("Profiler: interactions", interactions); */
         console.log("Profiler: Input Component");
+        console.log(baseDuration, "BASE DURATION");
+        console.log(baseDuration, "ACTUAL DURATION");
         console.log("------------------------------------------");
       }}
     >
