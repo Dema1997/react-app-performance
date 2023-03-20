@@ -19,13 +19,13 @@ const Input = ({ placeholder, value, onChange }: InputProps) => {
         commitTime,
         interactions
       ) => {
-        console.log("Profiler: id", id);
+        /*  console.log("Profiler: id", id);
         console.log("Profiler: phase", phase);
         console.log("Profiler: actualDuration", actualDuration);
         console.log("Profiler: baseDuration", baseDuration);
         console.log("Profiler: startTime", startTime);
         console.log("Profiler: commitTime", commitTime);
-        console.log("Profiler: interactions", interactions);
+        console.log("Profiler: interactions", interactions); */
         console.log("Profiler: Input Component");
         console.log("------------------------------------------");
       }}

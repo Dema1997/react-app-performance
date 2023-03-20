@@ -1,5 +1,6 @@
 import React, { Profiler } from "react";
 import "./App.css";
+import InputsContainer from "./components/inputs-container";
 import Main from "./components/main";
 
 function App() {
@@ -14,6 +15,16 @@ function App() {
           }}
         >
           <Main />
+        </Profiler>
+
+        <Profiler
+          id="InputsContainerComponent"
+          onRender={() => {
+            console.log("Profiler: Inputs-Container Component");
+            console.log("------------------------------------------");
+          }}
+        >
+          <InputsContainer />
         </Profiler>
       </main>
     </div>
